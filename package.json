@@ -1,0 +1,18 @@
+{
+  "name": "acarothjs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Acaroth.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx pm2 start acaroth.js",
+    "stop": "npx pm2 stop acaroth.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^14.4.0",
+    "sequelize": "^6.23.1",
+    "sqlite3": "^5.1.1"
+  }
+}
